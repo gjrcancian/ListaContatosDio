@@ -77,7 +77,7 @@ class _SaveContactsState extends State<SaveContacts> {
                   width: 2, // espessura da borda do botão
                 ),
               ),
-              child: SalvarFoto.vazio(
+              child: SalvarFoto(
             onPhotoSelected: (value) {
       setState(() {
       path_foto = value;
